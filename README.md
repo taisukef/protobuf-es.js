@@ -5,6 +5,13 @@
 
 **protobuf.js** is a pure JavaScript implementation with [TypeScript](https://www.typescriptlang.org) support for [node.js](https://nodejs.org) and the browser. It's easy to use, blazingly fast and works out of the box with [.proto](https://developers.google.com/protocol-buffers/docs/proto) files!
 
+ES version (for ES module / Deno)
+--------
+```
+import { protobuf } from "https://taisukef.github.io/protobuf-es.js/dist/protobuf-es.js";
+protobuf.load ...
+```
+
 Contents
 --------
 
